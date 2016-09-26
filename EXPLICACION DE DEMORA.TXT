@@ -1,0 +1,10 @@
+Profesores, quería explicar el porqué de la demora de la subida del TP. 
+En realidad ya lo habíamos subido en horario pero lo habíamos hecho mal. Mi compañero cuando llegó a su casa e intentó 
+bajarlo, descubrió que habíamos solo subido el Main, así que intenté pushear el resto y luego de perder mucho tiempo sin
+lograrlo, decidí borrar el repositorio para volverlo a crear y subir completo.
+Cuando hice esto, no se porque, ironía creo yo, subió todo menos el Main! el cual a su vez no me dejaba o no me tomaba que lo 
+pusheaba ya que nunca logré incorporarlo.
+Finalmente borré y creé el repositorio varias veces intentando que quedara completo hasta que lo logré pero a fuerza de copiar 
+todo el laboratorio en un proyecto nuevo que en lugar de llamarse "Laboratorio02c2016", se llama "Laboratorio2c2016".
+Así que espero sepan entender que fueron problemas de fuerza mayor que no permitieron respetar el horario.
+Desde ya muchas gracias por su tiempo. Saludos.
