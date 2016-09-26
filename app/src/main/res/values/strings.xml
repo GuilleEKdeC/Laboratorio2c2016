@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Laboratorio02c2016</string>
+    <string name="titulo">Pedite la Cena!!!</string>
+
+    <string name="reserva">Reservar mesa</string>
+    <string name="delivery">Delivery</string>
+
+    <string name="select_Hora">Selecciona el horario</string>
+
+    <string name="notificar">Notificar 1 hora antes</string>
+
+    <string name="plato">Plato</string>
+    <string name="postre">Postre</string>
+    <string name="bebida">Bebida</string>
+
+    <string name="boton">AGREGAR</string>
+    <string name="boton2">CONFIRMAR PEDIDO</string>
+    <string name="boton3">REINICIAR</string>
+
+    <string name="warning1">Debe seleccionar algo del menu</string>
+    <string name="warning2">El pedido ya ha sido confirmado</string>
+    <string name="warning3">Pedido Confirmado</string>
+
+    <string name="msj_plato">Ha pulsado plato</string>
+    <string name="msj_bebida">Ha pulsado bebida</string>
+    <string name="msj_postre">Ha pulsado postre</string>
+</resources>

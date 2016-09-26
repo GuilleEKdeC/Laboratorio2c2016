@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="dam.isi.frsf.utn.edu.ar.laboratorio02c2016.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/titulo"
+            android:id="@+id/textView"
+            android:textColor="#030303"
+            android:textSize="18sp" />
+
+        <ToggleButton
+            android:layout_width="145dp"
+            android:layout_height="34dp"
+            android:id="@+id/toggleButton"
+            android:textOff="@string/reserva"
+            android:textOn="@string/delivery"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/select_Hora"
+            android:id="@+id/textView2"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:entries="@array/times"
+            android:scrollbarSize="20dp"
+            android:minWidth="20dp" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:layout_height="wrap_content"
+            android:id="@+id/switch1"
+            android:layout_width="266dp"
+            android:text="@string/notificar"
+            android:textSize="16sp"
+            android:checked="false"
+            android:visibility="visible"
+            android:cursorVisible="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/textView3"
+            android:minLines="1"
+            android:maxLines="6"
+            android:scrollbars="vertical"
+            android:textSize="14sp"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:layout_weight="0.07"
+            android:layout_height="80dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup">
+
+            <RadioButton
+                android:text="@string/plato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton"
+                android:layout_weight="0.04"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:text="@string/postre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton2"
+                android:textSize="16sp"
+                android:layout_weight="0.04"
+                android:checked="true" />
+
+            <RadioButton
+                android:text="@string/bebida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton3"
+                android:layout_weight="0.44"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:weightSum="1">
+
+            <Button
+                android:text="@string/boton"
+                android:layout_width="wrap_content"
+                android:id="@+id/button"
+                android:layout_height="35dp"
+                android:textSize="12sp" />
+
+            <Button
+                android:text="@string/boton2"
+                android:layout_width="wrap_content"
+                android:id="@+id/button2"
+                android:layout_height="35dp"
+                android:textSize="12sp"
+                android:layout_weight="0.95" />
+
+            <Button
+                android:text="@string/boton3"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:id="@+id/button3"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/MyList"
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:dividerHeight="0dp"
+            android:clickable="true"
+            android:divider="@android:color/darker_gray"
+            android:choiceMode="singleChoice"
+            android:headerDividersEnabled="false"
+            android:footerDividersEnabled="false"
+            android:background="@android:color/transparent"
+            android:longClickable="true">
+        </ListView>
+
+    </LinearLayout>
+</RelativeLayout>
